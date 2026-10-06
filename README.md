@@ -1,4 +1,4 @@
-# Apex Dynamics — Modern Premium 3D Business Website
+# Gokul Tech Solution 
 
 A complete, modern, premium business web application built for real-world enterprise operations. Features a clean, Apple-level minimalist user interface, lightweight interactive 3D hero visualization via Three.js / React Three Fiber, smooth Framer Motion animations, a secure Node.js + Express backend, MongoDB / Mongoose database with auto-seeding, JWT authentication, and a full-featured Admin Dashboard with CRUD capabilities.
 
@@ -11,6 +11,8 @@ A complete, modern, premium business web application built for real-world enterp
 - **Database**: MongoDB with automatic embedded in-memory fallback for zero-configuration local development + support for local/remote MongoDB Atlas URI.
 
 ---
+
+Visit oru webpage - https://frontend-eight-green-28.vercel.app
 
 ## 📂 Project Architecture
 
@@ -98,79 +100,6 @@ Business Webpage/
 
 ---
 
-## 🛠️ Getting Started & Installation
-
-### Prerequisites
-- Node.js (v18 or higher; tested on v24.21.0)
-- npm (v9 or higher)
-
-### 1. Install Backend Dependencies
-```bash
-cd backend
-npm install
-```
-
-### 2. Install Frontend Dependencies
-```bash
-cd ../frontend
-npm install
-```
-
----
-
-## ⚙️ Environment Variables
-
-### Backend (`backend/.env`):
-```env
-PORT=5001
-NODE_ENV=development
-MONGO_URI=
-JWT_SECRET=business_premium_ultra_secret_key_jwt_token_2026_prod
-```
-> **Note on MongoDB**: If `MONGO_URI` is left blank, the backend automatically spins up an embedded in-memory MongoDB instance. This enables immediate testing out-of-the-box without requiring a local `mongod` daemon. When you are ready for persistent storage, paste your MongoDB Atlas or local connection string in `MONGO_URI`.
-> **Note on Port**: Port `5001` is used by default to prevent conflicts with macOS AirPlay / ControlCenter which reserves port 5000.
-
-### Frontend (`frontend/.env`):
-```env
-VITE_API_URL=/api
-```
-
----
-
-## 💻 Running the Application Locally
-
-Open two terminal windows:
-
-### Terminal 1 — Start the Backend API:
-```bash
-cd backend
-npm run dev
-# Or: npm start
-```
-*The server will start at `http://localhost:5001` and seed initial admin credentials, products, services, and projects.*
-
-### Terminal 2 — Start the Vite Frontend Dev Server:
-```bash
-cd frontend
-npm run dev
-```
-*Open your browser and navigate to `http://localhost:5173`.*
-
----
-
-## 🔑 Default Credentials & Demo Access
-
-The backend automatically creates demo accounts upon first startup:
-
-| Role | Email | Password | Access Level |
-|---|---|---|---|
-| **Administrator** | `admin@business.com` | `admin123` | Full access to `/admin` dashboard and CRUD management |
-| **Standard User** | `user@business.com` | `user123` | Standard client access |
-
-> The `/login` page also includes **One-Click Demo Autofill buttons** for both the Admin and Standard User.
-
----
-
 ## 📱 Features & Highlights
 
 1. **Lightweight 3D Interactive Graphics**:
@@ -202,4 +131,4 @@ The backend automatically creates demo accounts upon first startup:
 ---
 
 ## 📄 License
-MIT © 2026 Apex Dynamics, Inc.
+ © 2026 GOKUL TECH SOLUTION PVT LMT.
