@@ -1,0 +1,24 @@
+{
+  "name": "gokul-tech-solutions",
+  "version": "1.0.0",
+  "description": "Modern Premium 3D Business Website with React Three Fiber, Express, and MongoDB",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": [
+    "threejs",
+    "react-three-fiber",
+    "framer-motion",
+    "express",
+    "mongodb",
+    "business-website",
+    "admin-dashboard"
+  ],
+  "author": "Gokul Tech Solutions",
+  "license": "MIT"
+}
